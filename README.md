@@ -48,6 +48,8 @@ Yii::$app->dingTalk->sendLink('我其实是一个机器人','我其实是一个�
 Yii::$app->dingTalk->sendMarkdown('我其实是一个机器人','我其实是一个机器人');
 ```
 
+Read [https://open-doc.dingtalk.com/docs/doc.htm?spm=a219a.7629140.0.0.p2lr6t&treeId=257&articleId=105733&docType=1](https://open-doc.dingtalk.com/docs/doc.htm?spm=a219a.7629140.0.0.p2lr6t&treeId=257&articleId=105733&docType=1) to continue
+
 ## License
 
 This is released under the MIT License. See the bundled [LICENSE.md](LICENSE.md)
