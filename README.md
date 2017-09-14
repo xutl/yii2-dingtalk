@@ -46,6 +46,7 @@ Add following lines to your main configuration file:
 Yii::$app->dingTalk->sendText('我其实是一个机器人');
 Yii::$app->dingTalk->sendLink('我其实是一个机器人','我其实是一个机器人我其实是一个机器人我其实是一个机器人我其实是一个机器人！','','https://www.dingtalk.com/');
 Yii::$app->dingTalk->sendMarkdown('我其实是一个机器人','我其实是一个机器人');
+Yii::$app->dingTalk->sendActionCard......
 ```
 
 Read [https://open-doc.dingtalk.com/docs/doc.htm?spm=a219a.7629140.0.0.p2lr6t&treeId=257&articleId=105733&docType=1](https://open-doc.dingtalk.com/docs/doc.htm?spm=a219a.7629140.0.0.p2lr6t&treeId=257&articleId=105733&docType=1) to continue
