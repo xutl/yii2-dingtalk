@@ -33,6 +33,15 @@ Add following lines to your main configuration file:
 
 ```php
     'components' => [
+        'log' => [
+            'targets' => [
+                [
+                    'class' => 'xutl\dingtalk\DingTalkTarget',
+                    'dingTalk' => 'dingTalk',
+                    'levels' => ['error', 'warning'],
+                ],
+            ],
+        ],
         'dingTalk' => [
             'class' => 'xutl\dingtalk\DingTalk',
             'accessToken' => '1234567890',
