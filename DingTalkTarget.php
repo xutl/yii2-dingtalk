@@ -7,7 +7,6 @@
 
 namespace xutl\dingtalk;
 
-use yii\base\InvalidConfigException;
 use yii\di\Instance;
 use yii\log\Target;
 
@@ -55,6 +54,7 @@ class DingTalkTarget extends Target
 
     /**
      * Sends log messages to specified dingTalk.
+     * @throws \yii\httpclient\Exception
      */
     public function export()
     {

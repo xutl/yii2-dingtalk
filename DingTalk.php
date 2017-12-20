@@ -49,6 +49,7 @@ class DingTalk extends Component
      * @param int $btnOrientation
      * @param string $singleTitle
      * @return array
+     * @throws Exception
      */
     public function sendActionCard($title, $content, $singleURL, $hideAvatar = 0, $btnOrientation = 0, $singleTitle = '阅读原文')
     {
@@ -73,6 +74,7 @@ class DingTalk extends Component
      * @param array $atMobiles
      * @param bool $isAtAll
      * @return array
+     * @throws Exception
      */
     public function sendMarkdown($title, $content, array $atMobiles = [], $isAtAll = false)
     {
@@ -100,6 +102,7 @@ class DingTalk extends Component
      * @param string $picUrl
      * @param string $messageUrl
      * @return array
+     * @throws Exception
      */
     public function sendLink($title, $text, $picUrl = '', $messageUrl)
     {
@@ -121,6 +124,7 @@ class DingTalk extends Component
      * @param array $atMobiles
      * @param bool $isAtAll
      * @return array
+     * @throws Exception
      */
     public function sendText($content, array $atMobiles = [], $isAtAll = false)
     {
